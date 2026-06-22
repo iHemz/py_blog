@@ -1,0 +1,6 @@
+{% with messages = get_flashed_messages(category_filter=['error']) %}
+          {% if messages %}
+            <p style="color: red">{{ messages[-1] }}</p>
+          {% endif %}
+        {% endwith %}
+{{ render_form(form) }}
