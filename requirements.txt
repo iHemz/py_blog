@@ -19,5 +19,5 @@ typing_extensions
 bleach
 email_validator
 gunicorn
-psycopg-binary
+psycopg[binary]>=3.0.0
 python-dotenv
