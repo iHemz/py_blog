@@ -20,3 +20,4 @@ bleach
 email_validator
 gunicorn
 psycopg-binary
+python-dotenv
